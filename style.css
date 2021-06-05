@@ -1,0 +1,341 @@
+/* Home Page */
+
+img#meBig {
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    z-index: -100;
+}
+
+.welcomePage {
+    margin: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+div#main {
+    margin: 0 0 0 0;
+    position: absolute;
+    width: 38%;
+    height: 96%;
+    /*original 112*/
+    background-color: rgb(52, 51, 51, 0.42);
+    text-align: center;
+    color: white;
+}
+
+div#firstDiv {
+    font-family: "Perpetua Titling MT";
+    font-size: 3.5em;
+    margin-top: 55%;
+}
+
+div#twoDiv {
+    font-family: 'Heiti SC', Helvetica;
+    font-size: 1.5em;
+    padding: 0.2em;
+}
+
+/* Reference footer */
+
+footer#home {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.4);
+    position: absolute;
+    position: relative;
+    margin-top: 757px;
+    /* bottom: -3vh; */
+    width: 100%;
+    height: 8em;
+}
+
+footer#feedback {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8em;
+}
+
+div.leftFooter {
+    display: inline-flex;
+}
+
+div.rightFooter {
+    float: right;
+    margin-right: 2em;
+}
+
+footer h4 {
+    font-style: normal;
+    margin-left: 2em;
+}
+
+footer ol li {
+    font-family: Helvetica;
+    list-style: "- ";
+    left: 0.7em;
+    font-size: 0.7em;
+}
+
+footer ol li a {
+    text-decoration: none;
+    color: white;
+}
+
+h4#invis {
+    opacity: 0;
+}
+
+footer ol li a:hover {
+    text-decoration: underline;
+    color: rgb(56, 126, 206)
+}
+
+ol.last {
+    margin-right: 30em;
+}
+
+/* Nav bar */
+
+header {
+    font-family: 'Heiti SC';
+    background-color: rgba(216, 216, 216, 0.44);
+    height: 4em;
+}
+
+.nav {
+    display: inline-flex;
+}
+
+.nav a {
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1.5em;
+    justify-content: space-between;
+}
+
+.nav a:hover {
+    border-top: 5px solid black;
+    color: rgb(190, 190, 190);
+}
+
+a#active {
+    text-decoration: 5px underline black;
+}
+
+.name {
+    float: right;
+    color: rgb(255, 255, 255);
+    padding: 1.5em;
+}
+
+/* about me content */
+
+img#me {
+    width: 250px;
+}
+
+img#mj {
+    height: 150px;
+}
+
+/* div#myPicture {} */
+
+/* My Past */
+
+img#primary, #twpsPhoto, img#secondary, #rgtsLogo, img#meAward {
+    width: 300px;
+}
+
+div#halfText {
+    color: white;
+    font-family: Helvetica;
+    font-size: 0.8em;
+    padding: 0.75em;
+    grid-column-start: span 2;
+    grid-row-start: span 1;
+}
+
+/* Poly Life Content */
+
+.polyLife {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+    float: left;
+    justify-content: space-evenly;
+    margin: 1em 0.75em 0em 0.75em;
+}
+
+img#spLogo {
+    width: 400px;
+}
+
+img#meFrens {
+    width: 350px;
+    margin-top: 9em;
+}
+
+div#positionText {
+    margin-bottom: 10em;
+}
+
+/* My Course Content */
+
+.myCourse {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    float: left;
+    justify-content: space-evenly;
+    margin: 1em 0.75em 0em 0.75em;
+}
+
+div#jobs {
+    grid-column-start: 2 span 2;
+    grid-row-start: span 1;
+}
+
+img#dismLogo {
+    width: 300px;
+}
+
+img#dismPeople {
+    width: 350px;
+}
+
+div#dismLearning {
+    margin-top: 10em;
+}
+
+div#jobs ol {
+    list-style: "- ";
+}
+
+div#dismPeople {
+    grid-column-start: span 1;
+    grid-row-start: 2 span 2;
+    bottom: 10em;
+}
+
+/* Feedback and comments */
+
+.userName, .userEmail {
+    border-radius: 10px;
+    background-color: #979797;
+    display: flex;
+    margin: 0 0 10px 0;
+}
+
+label, div#commentName {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50px;
+    text-align: center;
+}
+
+div#rate {
+    width: 50px;
+    text-align: center;
+}
+
+input {
+    border-radius: 10px;
+    width: 100%;
+    background-color: #979797;
+    border: none;
+}
+
+textarea::placeholder, input::placeholder, div#duration {
+    font-family: "Helvetica Neue";
+    font-size: 0.7em;
+    font-style: italic;
+    color: #5D5959;
+}
+
+textarea {
+    border-radius: 10px;
+    width: 98.6%;
+    margin: 0 0.5em 0 0.5em;
+    border: none;
+    background-color: #D8D8D8;
+}
+
+.feedback, .srinivasComment {
+    font-size: 0.8em;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    background-color: #D8D8D8;
+    width: 65%;
+    margin: 2em 2em 2em 2em;
+}
+
+.userRate {
+    display: flex;
+}
+
+.userRate img, .fourStar img {
+    height: 16.89px;
+}
+
+img#star1:hover, img#star2:hover, img#star3:hover, img#star4:hover, img#star5:hover {
+    content: url("star.png");
+}
+
+/* Fake Comment */
+
+.srinivas {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.fourStar {
+    padding-left: 20px;
+}
+
+div#duration {
+    padding-top: 18px;
+}
+
+div#commentName {
+    padding: 5px;
+}
+
+.fakeComment {
+    padding: 5px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+/* Text in the feedback page */
+
+.thankYou {
+    position: absolute;
+    right: 2.5%;
+    top: 20%;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 21px;
+    font-style: normal;
+    text-align: center;
+    width: 27%;
+    color: white;
+}
+
+.quote {
+    position: absolute;
+    top: 50%;
+    right: 2.5%;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 21px;
+    font-style: italic;
+    font-variant: normal;
+    text-align: center;
+    width: 27%;
+    color: #CBCBCB;
+}

@@ -1,0 +1,50 @@
+html {
+    background-color: rgb(26, 26, 26);
+    font-family: Helvetica;
+}
+
+body {
+    font-family: Helvetica;
+    margin: 0px;
+}
+
+.text {
+    color: white;
+    font-family: Helvetica;
+    font-size: 12px;
+    padding: 0.75em;
+    grid-column-start: span 3;
+    grid-row-start: span 1;
+}
+
+.text h1 {
+    font-family: 'Heiti SC', Helvetica;
+    font-size: 22px;
+}
+
+.contents {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    float: left;
+    justify-content: space-evenly;
+    margin: 1em 0.75em 0em 0.75em;
+}
+
+.small {
+    padding: 0.75em;
+    padding-top: 1.5em;
+    grid-column-start: span 1;
+    grid-row-start: span 2;
+}
+
+.small p {
+    font-family: "Helvetica Neue";
+    font-size: 0.5em;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.555);
+    width: inherit;
+    padding: 0.75em;
+    margin-top: 0;
+    word-wrap: break-word;
+}
